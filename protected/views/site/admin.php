@@ -77,28 +77,7 @@ if(admaacess != 'true'){
 
    <?php
    
-   
-   
-   
-   $arr = array();
-   $result = videos::model()->findAll('id > :numsz', array(':numsz'=>0));
-	foreach ($result as $buf){
-	//$arr[$buf->id] = $buf->id;
-	 $b = $buf->id;
-	 if($b < $buf->id){
-		 $b = $buf->id;
-		 
-	 }
-	 echo $buf->id.'<br/>';
-	}
-   echo $b;
- 
-   
-   echo '<br/><br/>';
-   
-   
-   
-   echo '<h3><b>= New video =</b></h3><br/>'; 
+    echo '<h3><b>= New video =</b></h3><br/>'; 
 
 	$result = videos::model()->findAll('id > :numsz', array(':numsz'=>0));
 	foreach ($result as $buf){
