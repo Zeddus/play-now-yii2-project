@@ -1,0 +1,87 @@
+   h3{
+   font-weight: normal;
+   font-size:18px;  
+   text-transform: uppercase;
+   }   
+      
+   span{
+   color: #fff; 
+   }	
+
+	span.text-box-title{
+	text-align: left;
+	line-height:40px; 
+	}
+	
+	span.text-box-text{
+	text-align: left;
+	font-size:14px;
+	}
+	
+	div.main-text-block-body{
+   padding-top:105px;
+   padding-right:27px;
+   padding-left:27px;	
+	}
+
+   div.round-button-text-main-container{
+      padding-top: 50px;
+      padding-left: 160px;
+   }
+
+	div.round-button-text{
+   width:50px;
+   height:50px;
+   background: url('../img/blocks/arrow.svg') no-repeat center center;	
+	}
+	
+	
+	
+/* About divs part here*/
+	.d_first{
+	float:left;
+   height: 415px;
+	width: 267px;
+	min-width: 267px;
+	display: inline-block;
+	background: #3eae75 url('../img/blocks/site.svg') no-repeat 27px 32px;	
+	background-size: 80.6px 60px; 
+	}
+
+	.d_second{
+	height: 415px;
+	width: 267px;
+	float: left;
+	min-width: 267px;
+	display: inline-block;
+	background: #f08524 url('../img/blocks/cms.svg') no-repeat 27px 26px;	
+	background-size: 65px 65px; 
+	}
+
+	.d_third{
+	height: 415px;
+	width: 267px;
+	float: left;
+	min-width: 267px;
+	display: inline-block;	
+	background: #d83435 url('../img/blocks/style.svg') no-repeat 27px 26px;	
+	background-size: 79px 66.5px; 
+	}
+
+	.d_finish{
+	height: 415px;
+	width: 267px;
+	float: left;
+	min-width: 267px;
+	display: inline-block;
+	background: #43aadb url('../img/blocks/ui.svg') no-repeat 27px 24px;	
+	background-size: 64px 72px; 
+	}
+
+	.clear_inline{
+	display: inline-block;
+	width: 35px;
+	float: left;
+	min-width: 29px;
+	height:1px;
+	}

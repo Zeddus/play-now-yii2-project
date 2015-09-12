@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px MyriadProRegular, sans-serif;
+	background-color: #e3e9eb;
+}
+.wrapper {
+	min-width: 1176px;
+	width: 1176px;
+	margin: 0 auto;
+}
+
+.wrapper2 {
+	min-width: 1176px;
+	padding:0px;
+	width: 1176px;
+	margin: 0 auto;
+}
+
+
+
+  
+  /* font-family: "MyriadProRegular"; */
+	@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+	}    
+	
+	/* font-family: "MyriadProBold"; */
+	@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+	}    
+       
+	
+/* Middle
+-----------------------------------------------------------------------------*/
+	.content {
+	}
+	
+	 .background_two{
+ 	   background: #95b7d5 url('../img/backgrounds/top_slide.png') no-repeat center center;
+ 	  }
+
+	 .background_three{
+ 	   background: #afcde9 url('../img/backgrounds/middle_slide.png') no-repeat center center;
+ 	 }
+  
+  	 .background_four{
+      background-color: #fff;  
+      background-repeat: repeat;	
+  	 } 	
+  	  
+ 	 
+	 .container_slider{
+ 	  height: 500px;
+	  width: 1170px;
+ 	  min-width: 1170px;
+	 }
+
+	.clear{
+	 height:38px;
+	 width:100%;
+	 }
+
+	.clear2{
+	background-color: #fff;	
+	height:35px;
+	width:100%;
+	}
+	
+	.clear3{
+	 height:38px;
+	 width:100%;
+	 }
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+	.footer {
+	height: 134px;
+	padding-top:0px;
+	}
+   
+   .bottom_liner_clean{
+   height:99px;
+   width:34px;
+   min-width: 34px;
+   float: left;
+   display: inline-block;
+   }
+   
+	.left_block_part{
+ 	height:99px;
+ 	text-transform: uppercase;
+ 	color: #fff;
+ 	font-size: 18px;
+	width:267px;
+	float: left;
+	min-width:267px;
+ 	display: inline-block;
+ 	background: #43aadb url('../img/bottom_img/clients.svg') no-repeat 27px 21px;
+ 	background-size: 52px 55.5px;
+	}
+	
+	.clients-text{
+   padding-top:40px;
+   padding-left:107px;	
+	}
+
+	.right_block_part{
+	height:99px;
+	width:872px;
+	min-width:872px;
+	float:left;
+	background: #fff;	
+	}
+	
