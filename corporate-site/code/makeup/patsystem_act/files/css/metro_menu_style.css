@@ -1,0 +1,111 @@
+.square-all{
+	width: 100%;
+	height: 131px;
+	color:#fff;
+}
+
+div.s_home, div.s_portfolio, div.s_services, div.s_about, div.s_contacts, div.s_social, div.s_facebook, div.s_vk, div.s_twitter, div.s_in{
+	opacity: 0.5;
+	/*WARMING!*/
+   transition:all 1s;
+}
+
+div.s_home:hover, div.s_portfolio:hover, div.s_services:hover, div.s_about:hover, div.s_contacts:hover, div.s_social:hover, div.s_facebook:hover, div.s_vk:hover, div.s_twitter:hover, div.s_in:hover{
+	opacity: 1;
+		/*WARMING!*/
+   transition:all 1s;
+}
+
+.square {
+	width: 131px;
+	height: 131px;
+	display: inline-block;
+	float: left;
+	margin-right: 3px;
+	color:#fff;
+}
+
+.t{
+	padding:9px;
+	line-height: 32px;
+	font-size:14px;
+}
+
+
+.square-smalls{
+	display: inline-block;
+	float: left;
+	width: 134px;
+	min-width: 134px;
+	height: 131px;
+	color:#fff;
+}
+
+.square-small{
+	margin-bottom: 3px;
+	float: left;
+	width: 64px;
+	height: 64px;
+}
+
+.square-two{
+	width: 64px;
+	min-width: 64px;
+}
+
+.clear-square{
+	float: left;
+	height: 100%;
+	width: 35px;
+}
+
+.s_home{
+	background:#ef8522 url('../img/metro/bottom-01.svg') no-repeat center center;
+	background-size: 52px 52px;
+}
+
+.s_portfolio{
+	background:#d83434 url('../img/metro/bottom-02.svg') no-repeat center center;
+	background-size: 60px 51px;
+}
+
+.s_services{
+	background:#3dad75 url('../img/metro/bottom-03.svg') no-repeat center center;
+	background-size: 59px 59px;
+}
+
+.s_about{
+	background:#3ea9db url('../img/metro/bottom-04.svg') no-repeat center center;
+	background-size: 55px 57px;
+}
+
+.s_contacts{
+	background:#ef8522 url('../img/metro/bottom-05.svg') no-repeat center center;
+	background-size: 52px 56px;
+}
+
+.s_facebook{
+	background:#2064a9 url('../img/metro/bottom-07.svg') no-repeat center center;
+	background-size: 35px 72px;
+}
+
+.s_social{
+	background:#3ea9db url('../img/metro/bottom-06.svg') no-repeat center center;
+	background-size: 68px 56px;
+}
+
+.s_vk{
+	background:#4a709b url('../img/metro/bottom-08.svg') no-repeat center center;
+	background-size: 88px 50px;
+}
+
+
+.s_twitter{
+	background:#41a9d6 url('../img/metro/bottom-09.svg') no-repeat center center;
+	background-size: 33px 29px;
+}
+
+.s_in{
+	background:#1f8eb3 url('../img/metro/bottom-10.svg') no-repeat center center;
+	background-size: 37px 35px;
+}

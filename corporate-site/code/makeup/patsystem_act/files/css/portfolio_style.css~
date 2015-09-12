@@ -1,0 +1,31 @@
+ .background_folio{
+	background: #a6d3e2; 
+ }
+ 
+  .background_folio2{
+	background: #fff; 
+ }
+ 
+   .background_folio3{
+	background: #a5abae; 
+ }
+ 
+ .container_about{
+  width: 1170px;
+  min-width: 1170px;	
+  height:380px;
+ }
+ 
+  .container_about_us{
+  width: 1170px;
+  min-width: 1170px;	
+  height:475px;
+  border: 3px solid #e3e9eb;
+ }
+ 
+   .container_otz{
+  width: 1170px;
+  min-width: 1170px;	
+  height:650px;
+  border: 3px solid #e3e9eb;
+ }

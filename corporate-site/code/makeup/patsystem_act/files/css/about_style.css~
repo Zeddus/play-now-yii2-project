@@ -1,0 +1,69 @@
+ .background_folio{
+	background: #aed8ee url('../img/backgrounds/about_bg1.jpg') no-repeat center center; 
+ }
+ 
+  .background_folio2{
+	background: #fff; 
+ }
+ 
+   .background_folio3{
+	background: #a5abae url('../img/backgrounds/about_bg2.jpg') no-repeat center center; 
+ }
+ 
+ .container_about{
+  width: 1170px;
+  min-width: 1170px;	
+  height:380px;
+ }
+ 
+  .container_about_us{
+  width: 1170px;
+  min-width: 1170px;	
+  height:475px;
+  border: 3px solid #e3e9eb;
+ }
+ 
+   .container_otz{
+  width: 1170px;
+  min-width: 1170px;	
+  height:650px;
+ }
+ 
+	.about_part_text{
+  width:700px;
+  float: left;
+  min-width:700px;
+  height: 100%;
+	} 
+ 
+ 	div.title-about-page{
+   padding-top:50px;
+   padding-left:110px;
+   padding-bottom:50px;
+   padding-right:25px;
+	color:#e93f61;
+	font-weight:bold; 	
+	font-size:38px;
+ 	} 
+ 	
+   div.hr_mini{
+   width:500px;
+   min-width:500px;
+   height:3px;
+   background-color: #e3e9eb;  
+   } 	
+ 	
+ 	div.text-about_page{
+   padding-left:30px;
+   font-size:20px; 
+	padding-right:25px;
+   line-height: 30px;	
+ 	}
+ 
+ 	.about_part_logo{
+ 	width:470px;
+ 	float: left;
+   min-width: 470px;
+   background: #e3e9eb; 	
+   height:100%
+ 	}
