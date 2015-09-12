@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>Patsystems</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="files/css/base_style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+	<header class="header">
+		<div id="hor-menu" class="logo"></div>
+		
+		<div id="hor-menu" class="menu">
+<ul>
+  <li class="home"><a href="#" title="Главная страница" class="home">Главная</a></li>
+  <li class="portfolio"><a href="#" title="Портфолио" class="portfolio">Портфолио</a></li>
+  <li class="services"><a href="#" title="Услуги" class="services">Услуги</a></li>
+  <li class="about"><a href="#" title="О нас" class="about">О нас</a></li>
+  <li class="feedback"><a href="#" title="Контакты" class="feedback">Контакты</a></li>
+  
+</ul>
+</div>
+
+<!--			<div id="hor-menu" class="menu_point"></div>
+			<div id="hor-menu" class="menu_point"></div>
+         <div id="hor-menu" class="menu_point"></div>
+         <div id="hor-menu" class="menu_point"></div>
+         <div id="hor-menu" class="menu_point"></div>-->
+	</header><!-- .header-->
+
+		<main class="content">
+
+
+    <div class="container_slider">
+ 
+    </div>		
+		<div class="clear"></div>
+   <div>
+    <div class="d_first"></div>
+    <div class="clear_inline"></div>
+    <div class="d_second"></div>
+    <div class="clear_inline"></div>
+    <div class="d_third"></div>
+    <div class="clear_inline"></div>
+    <div class="d_finish"></div>   
+   </div>		
+		<div class="clear"></div>
+		<div class="container_slider">
+
+    </div>	
+    <div class="clear"></div>    
+    <div id="hor-menu-sec">
+     
+     </div>
+     <div class="clear"></div>
+    <div>
+     <div class="first_block_p"></div>  
+     <div class="clear_inline"></div>  
+     <div class="second_block_p"></div>
+     <div class="clear_inline"></div>
+     <div class="third_block_p"></div>    
+    </div>
+    <div class="clear"></div>
+ 	</main><!-- .content -->
+
+	<footer class="footer">
+    <div class="foot_block_left"></div> <div class="foot_block_right"></div> 
+
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>

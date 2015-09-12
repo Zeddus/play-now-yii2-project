@@ -1,0 +1,295 @@
+/* Header
+-----------------------------------------------------------------------------*/
+	.header {
+	padding-top:18px;
+	height: 162px;
+	min-width: 1178px;
+	width: 1178px;
+	}
+
+	#hor-menu{
+  	 height: 130px;
+  	 
+	  }
+
+	.menu_point{
+		float: left;
+  		border-right: 3px solid #e3e9eb;
+  		display: inline-block;
+		width:130px;
+
+		min-width: 130px;
+	}
+   /*hor menu v3.0*/
+   
+   .men{
+   	display: inline-block; 	
+   	max-width: 668px;	
+   	min-width:668px;	
+   	
+   	}
+   
+   .menu_n{	
+   	display: inline-block;		
+   	border-right: solid #e3e9eb;		
+   	max-width:130px;min-width:130px; 
+   	height: 40px;float: left;
+   	font-size: 19px;
+   	text-transform: uppercase;
+   	}
+
+/*visible part*/
+   a.home{
+  		background: url(../img/main.svg) no-repeat 40px 18px;
+   	background-size: 50px 50px;
+   	padding-left:28px;
+   	padding-top:88px;
+   	padding-right: 40px;
+   	padding-bottom: 22px;
+   	color: #7ba44c;
+   }
+   
+	a.home_static{
+  		background: url(../img/main.svg) no-repeat 40px 18px;
+   	background-size: 50px 50px;
+   	padding-left:28px;
+   	padding-top:88px;
+   	padding-right: 40px;
+   	padding-bottom: 22px;
+   	color: #7ba44c;
+   }   
+   	
+   a.portfolio{
+  		background: url(../img/portfolio.svg) no-repeat 35px 18px;
+   	background-size: 58px 49px;
+   	padding-left:12px;
+   	padding-top:88px;
+   	padding-right: 12px;
+   	padding-bottom: 22px;
+   	color: #4b769a;
+   }
+   
+    a.portfolio_static{
+  		background: url(../img/portfolio.svg) no-repeat 35px 18px;
+   	background-size: 58px 49px;
+   	padding-left:12px;
+   	padding-top:88px;
+   	padding-right: 12px;
+   	padding-bottom: 22px;
+   	color: #4b769a;
+   }
+   
+   a.services{
+  		background: url(../img/services.svg) no-repeat 35px 18px;
+   	background-size: 57px 57px;
+   	padding-left:30px;
+   	padding-top:88px;
+   	padding-right: 60px;
+   	padding-bottom: 22px;
+   	color: #b5833f;
+   }
+
+      a.services_static{
+  		background: url(../img/services.svg) no-repeat 35px 18px;
+   	background-size: 57px 57px;
+   	padding-left:30px;
+   	padding-top:88px;
+   	padding-right: 60px;
+   	padding-bottom: 22px;
+   	color: #b5833f;
+   }
+   
+    a.about{
+  		background: url(../img/about.svg) no-repeat 34px 18px;
+   	background-size: 54px 55px;
+   	padding-left:35px;
+   	padding-top:88px;
+   	padding-right: 55px;
+   	padding-bottom: 22px;
+   	color: #7ba44c;
+   }
+   
+       a.about_static{
+  		background: url(../img/about.svg) no-repeat 34px 18px;
+   	background-size: 54px 55px;
+   	padding-left:35px;
+   	padding-top:88px;
+   	padding-right: 55px;
+   	padding-bottom: 22px;
+   	color: #7ba44c;
+   }
+   
+   a.feedback{
+  		background: url(../img/feedback.svg) no-repeat 40.25px 17px;
+   	background-size: 50px 54px;
+   	padding-left:20px;
+   	padding-top:88px;
+   	padding-right: 20px;
+   	padding-bottom: 22px;
+   	color: #4b769a;
+   }
+   
+   a.feedback_static{
+  		background: url(../img/feedback.svg) no-repeat 40.25px 17px;
+   	background-size: 50px 54px;
+   	padding-left:20px;
+   	padding-top:88px;
+   	padding-right: 20px;
+   	padding-bottom: 22px;
+   	color: #4b769a;
+   }
+   	
+      /*hover part*/   	
+   	
+   a:hover.home, a:hover.portfolio, a:hover.services, a:hover.about, a:hover.feedback{
+	/*WARMING!*/
+   transition:all 0.25s;   	
+   }
+   
+   a:hover.home{
+  		background: url(../img/main.svg) no-repeat 35.5px 12.5px;
+   	background-size: 59px 58px;
+   	padding-left:28px;
+   	padding-top:88px;
+   	padding-right: 40px;
+   	padding-bottom: 22px;
+   	color: #7ba44c;
+   	
+   }
+   	
+   a:hover.portfolio{
+  		background: url(../img/portfolio.svg) no-repeat 31px 13px;
+   	background-size: 66px 56px;
+   	padding-left:12px;
+   	padding-top:88px;
+   	padding-right: 12px;
+   	padding-bottom: 22px;
+   	color: #4b769a;
+   }
+   
+   a:hover.services{
+  		background: url(../img/services.svg) no-repeat 31.5px 12.5px;
+   	background-size: 65px 65px;
+   	padding-left:30px;
+   	padding-top:88px;
+   	padding-right: 60px;
+   	padding-bottom: 22px;
+   	color: #b5833f;
+   }
+   
+    a:hover.about{
+  		background: url(../img/about.svg) no-repeat 30px 12.5px;
+   	background-size: 62px 63px;
+   	padding-left:35px;
+   	padding-top:88px;
+   	padding-right: 55px;
+   	padding-bottom: 22px;
+   	color: #7ba44c;
+   }
+   
+   a:hover.feedback{
+  		background: url(../img/feedback.svg) no-repeat 35.5px 12px;
+   	background-size: 58px 62px;
+   	padding-left:20px;
+   	padding-top:88px;
+   	padding-right: 20px;
+   	padding-bottom: 22px;
+   	color: #4b769a;
+   }
+      
+       /*Selected part*/ 
+       
+    div.selected_home{
+  		background: url(../img/main_select.png) no-repeat 0px 0px;
+  		width:130px;
+  		padding-top: -20px;
+  		display: inline-block;
+  		min-width:130px;
+  		height:140px;
+    }
+    
+     div.selected_portfolio{
+  		background: url(../img/portfolio_select.png) no-repeat 0px 0px;
+  		width:130px;
+  		padding-top: -20px;
+  		display: inline-block;
+  		min-width:130px;
+  		height:140px;
+    }
+    
+    
+      div.selected_services{
+  		background: url(../img/services_select.png) no-repeat 0px 0px;
+  		width:130px;
+  		padding-top: -20px;
+  		display: inline-block;
+  		min-width:130px;
+  		height:140px;
+    }
+    
+      div.selected_about{
+  		background: url(../img/about_select.png) no-repeat 0px 0px;
+  		width:130px;
+  		padding-top: -20px;
+  		display: inline-block;
+  		min-width:130px;
+  		height:140px;
+    }
+    
+      div.selected_feedback{
+  		background: url(../img/feedback_select.png) no-repeat 0px 0px;
+  		width:130px;
+  		padding-top: -20px;
+  		display: inline-block;
+  		min-width:130px;
+  		height:140px;
+    }
+   
+   	.n{
+		border-top: 3px solid #fff;  
+		border-bottom: 3px solid #fff;  
+		display: inline-block;	
+		float:left;
+   	}
+   	 
+   	 .np{
+       border-top: 3px solid #e3e9eb;   
+        border-bottom: 3px solid #e3e9eb;   	 
+   	 }
+     
+   /*hor menu v 2.0*/
+   a{
+	   text-decoration: none;
+    }
+
+   .feedback{
+   	background: url(../img/feedback.svg) no-repeat;
+   	background-size: 52px 56px;
+   } 
+    
+	.menu{
+		width:650px;
+		min-width:650px;
+		display: inline-block;	
+	}
+
+	.logo{
+		border: 3px solid #fff;
+  	 	float: left;
+     	display: inline-block;
+		max-width: 502px;
+		min-width: 502px;
+	}
+	.inlo{
+		border: 3px solid #e3e9eb;
+  	 	background: #fff url('../img/logo.svg') no-repeat center center;
+		background-size: 339px 97.49px;
+		max-width: 502px;
+		height:100%;
+		min-width: 502px;
+	}
+
+	#hor-menu-sec{
+   height:132px;
+   width: 100%;	
+	}

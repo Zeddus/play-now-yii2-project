@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+.wrapper {
+	min-width: 800px;
+	max-width: 1147px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	padding-top:30px;
+	height: 125px;
+}
+
+#hor-menu{
+   height: 75px;
+   padding-top:20px;
+   padding-left:30px;
+   padding-right:30px;
+   background:#c2c2c2;
+}
+
+#hor-menu-sec{
+   height:100px;
+   width: 100%;	
+	background:#c2c2c2;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+}
+
+.container_slider{
+  background:#dedede;
+  height: 350px;
+}
+
+.clear{
+height:30px;
+width:100%;
+}
+
+/* About divs part here*/
+.d_first{
+height: 350px;
+width: 268px;
+display: inline-block;
+background: #dedede;
+}
+
+.d_second{
+height: 350px;
+width: 266px;
+display: inline-block;
+background: #c2c2c2;
+}
+
+.d_third{
+height: 350px;
+width: 266px;
+display: inline-block;	
+background: #dedede;
+}
+
+.d_finish{
+height: 350px;
+width: 268px;
+display: inline-block;
+background: #c2c2c2;
+}
+
+.clear_inline{
+	display: inline-block;
+	width: 20px;
+	height:1px;
+}
+
+.first_block_p{
+	width:365px;
+	height:200px;
+	display: inline-block;
+background: #dedede;
+}
+
+.second_block_p{
+	width:365px;
+	height:200px;
+display: inline-block;
+	background: #c2c2c2;
+}
+
+.third_block_p{
+	width:365px;
+height:200px;
+display: inline-block;
+	background: #dedede;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 150px;
+}
+
+.foot_block_left{
+ height:100px;
+ width:200px;
+ display: inline-block;
+ background: #c2c2c2;
+}
+
+.foot_block_right{
+	height:100px;
+	width:925px;
+	float:right;
+	background: #dedede;
+}
